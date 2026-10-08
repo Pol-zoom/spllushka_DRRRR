@@ -4,7 +4,7 @@ import "./style.css";
 
 const NAME = "Саша";
 const BIRTHDAY = "11.10";
-const MUSIC = "/music/birthday.mp3";
+const MUSIC = `${import.meta.env.BASE_URL}music/birthday.mp3`;
 
 const BOOT_LINES = [
   "INITIALIZING MEMORY............... OK",
